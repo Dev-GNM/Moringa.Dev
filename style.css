@@ -1,26 +1,55 @@
-
+/* 
 h1 {Color: Red}
 h2 {color: Green;}
 h3 {color: blue;}
-p {color: #000033;}
-body{background-color: #A0A0A0;}
-* {font-size:25;}
-* {font-family: Arial, Helvetica, sans-serif;}
+p {color: #000033;} */
+
+body{
+    background-color: #A0A0A0;
+
+}
+* {
+    font-size:25;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 h1{font-weight: bolder;}
 p{font-weight: 500;}
       
 
 div .back{
     border: 1px solid black;
-    background: url(https://www.pluralsight.com/content/pluralsight/en/blog/software-development/pil/pil-data-engineering-leaders-must-prioritize/jcr:content/image-res/file.img.efd70709-a8a1-4707-88d6-7c8cfb4e350b.png);
+    background: url('https://www.pluralsight.com/content/pluralsight/en/blog/software-development/pil/pil-data-engineering-leaders-must-prioritize/jcr:content/image-res/file.img.efd70709-a8a1-4707-88d6-7c8cfb4e350b.png');
     /* background-image: url("./my\ image/background-image"); */
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;}
     
-
-
-
-
+.one{
+    text-align: center;
+    /* margin-left: 100px; */
+}
+.football{
+    background-color: rgb(26, 226, 26);
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.link{
+    list-style-type: none;
+}
+.link li a{
+    text-decoration: none;
+}
+.involved{
+    background-color: rgb(136, 133, 139);
+    width: 50%;
+    margin-left: 30%;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
 
